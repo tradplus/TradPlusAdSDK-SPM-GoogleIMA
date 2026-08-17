@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.12.0")
+            .exact("15.13.0")
         ),
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPGoogleIMAAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-GoogleIMA/releases/download/15.12.0/TPGoogleIMAAdapter-15.12.0.xcframework.zip",
-            checksum: "da233e8787e48402c52b0fdc9fbfb5bcd2ee48a4b9607775c50756edab4c7113"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-GoogleIMA/releases/download/15.13.0/TPGoogleIMAAdapter-15.13.0.xcframework.zip",
+            checksum: "27d522d15e368cb6744b08404718b73b5cd8997f278904363bfd2d028efed0e2"
         ),
     ]
 )

@@ -1,11 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
     name: "TradPlusGoogleIMAAdapter",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v15),
     ],
     products: [
         .library(
@@ -16,11 +16,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.14.0")
+            .exact("15.15.0")
         ),
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios.git",
-            .exact("3.27.4")
+            .exact("3.32.0")
         ),
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPGoogleIMAAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-GoogleIMA/releases/download/15.14.0/TPGoogleIMAAdapter-15.14.0.xcframework.zip",
-            checksum: "c2fe7a46583df04d7bed9628dcb48b5fcf5597cfca29a76fdf539f947e8682ec"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-GoogleIMA/releases/download/15.15.0/TPGoogleIMAAdapter-15.15.0.xcframework.zip",
+            checksum: "68b9eecc2a86c5616695870710c6d8c4e63825a174352ff599b7dea64b82ab7b"
         ),
     ]
 )
